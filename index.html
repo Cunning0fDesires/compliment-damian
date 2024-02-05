@@ -55,7 +55,7 @@
 <body>
 <div class="container text-center custom-container">
   <h1>Compliment Generator</h1>
-  <img src="logo.jpeg" alt="Compliment Image" class="img-fluid my-3" style="max-width: 250px;">
+  <img src="logo.jpeg" alt="Compliment Image" class="img-fluid my-3" style="max-width: 150px;">
   <p>If you're Damian, feel free to click the button as many times as you like to receive a compliment</p>
   <button type="button" class="btn btn-success" id="getComplimentBtn">Get compliment</button>
   <p id="complimentText" style="display: none;"></p>
@@ -71,7 +71,7 @@
 
 <script>
   document.getElementById('getComplimentBtn').addEventListener('click', function () {
-    fetch('http://localhost:8080/random-compliment') // Updated endpoint URL
+    fetch('/random-compliment') // Updated endpoint URL
       .then(response => response.text())
       .then(compliment => {
         document.getElementById('complimentText').innerText = compliment;
