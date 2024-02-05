@@ -71,7 +71,7 @@
 
 <script>
   document.getElementById('getComplimentBtn').addEventListener('click', function () {
-    fetch('/random-compliment') // Updated endpoint URL
+    fetch('complimentdamian.com/random-compliment') // Updated endpoint URL
       .then(response => response.text())
       .then(compliment => {
         document.getElementById('complimentText').innerText = compliment;
