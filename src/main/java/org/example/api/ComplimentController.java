@@ -1,6 +1,6 @@
-package org.example.api;
+package main.java.org.example.api;
 
-import org.example.ComplimentPicker;
+import main.java.org.example.ComplimentPicker;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
