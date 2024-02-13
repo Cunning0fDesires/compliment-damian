@@ -3,6 +3,6 @@ logging:
     ROOT: DEBUG
 spring:
   thymeleaf:
-    prefix: classpath:/templates/
+    prefix: classpath:templates/
     suffix: .html
     check-template-location: false
