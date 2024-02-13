@@ -1,8 +1,0 @@
-logging:
-  level:
-    ROOT: DEBUG
-spring:
-  thymeleaf:
-    prefix: classpath:templates/
-    suffix: .html
-    check-template-location: false
