@@ -71,7 +71,7 @@
 
 <script>
   document.getElementById('getComplimentBtn').addEventListener('click', function () {
-    fetch('compliment-damian-6b426ffcf4eb.herokuapp.com/random-compliment') // Updated endpoint URL
+    fetch('random-compliment') // Updated endpoint URL
       .then(response => response.text())
       .then(compliment => {
         document.getElementById('complimentText').innerText = compliment;
