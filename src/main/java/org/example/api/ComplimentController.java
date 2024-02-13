@@ -11,4 +11,9 @@ public class ComplimentController {
   public String getRandomCompliment() {
     return ComplimentPicker.getRandomCompliment();
   }
+
+  @GetMapping("")
+  public String returnIndex() {
+    return "index";
+  }
 }
