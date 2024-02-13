@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ComplimentController {
 
-  @GetMapping("")
+  @GetMapping("/")
   public String returnIndex() {
     return "index";
   }
