@@ -9,6 +9,6 @@ public class ComplimentController {
 
   @GetMapping("/")
   public String returnIndex() {
-    return "example";
+    return "index";
   }
 }
