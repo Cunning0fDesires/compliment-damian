@@ -1,4 +1,4 @@
-package org.example;
+package com.complimentdamian;
 
 import java.util.List;
 import java.util.Random;

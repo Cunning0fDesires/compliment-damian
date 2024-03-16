@@ -1,4 +1,4 @@
-package org.example;
+package com.complimentdamian;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,6 +51,20 @@ public class ComplimentDatabase {
     compliments.add(Compliments.c40);
     compliments.add(Compliments.c41);
     compliments.add(Compliments.c42);
+    compliments.add(Compliments.c43);
+    compliments.add(Compliments.c44);
+    compliments.add(Compliments.c45);
+    compliments.add(Compliments.c46);
+    compliments.add(Compliments.c47);
+    compliments.add(Compliments.c48);
+    compliments.add(Compliments.c49);
+    compliments.add(Compliments.c50);
+    compliments.add(Compliments.c51);
+    compliments.add(Compliments.c52);
+    compliments.add(Compliments.c53);
+    compliments.add(Compliments.c54);
+    compliments.add(Compliments.c55);
+
   }
 
   public List<String> getCompliments() {

@@ -1,4 +1,4 @@
-package org.example;
+package com.complimentdamian;
 
 public class Compliments {
 
@@ -44,5 +44,18 @@ public class Compliments {
   public static final String c40= "I think the crown suits you ;)";
   public static final String c41= "It feels nice to be your Kitty";
   public static final String c42= "Distracting you from driving is my absolute pleasure";
+  public static final String c43 = "You are so charming";
+  public static final String c44 = "I feel so comfortable around you, like at home";
+  public static final String c45 = "Your house is so artistic, it's nice to see art at every corner of it";
+  public static final String c46 = "You are so sweet";
+  public static final String c47 = "I like you a lot";
+  public static final String c48 = "You somehow manage to turn me on within a fraction of a second, this is unreal";
+  public static final String c49 = "You make me fully embrace my femininity, I really missed this feeling";
+  public static final String c50 = "I appreciate the softness you treat me with, this lets me relax after being strong in every other sphere of my life";
+  public static final String c51 = "Your mind is just as beautiful as your face";
+  public static final String c52 = "You are very special";
+  public static final String c53 = "Twoje spojrzenie jest magiczne";
+  public static final String c54 = "Jesteś niezwykle kreatywny i zdolny";
+  public static final String c55 = "Twoje serce jest tak wielkie, jak twoja dobroć";
 
 }
